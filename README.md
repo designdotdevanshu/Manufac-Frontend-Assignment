@@ -1,11 +1,13 @@
 # Agriculture Data Analysis
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/326f2f90-173f-410a-a220-db4a4971b3c9/deploy-status)](https://app.netlify.com/sites/manufac-frontend-assignment/deploys)
+
 This project analyzes Indian agriculture data from 1950 to 2020 and displays two tables:
 
 1. Crop with maximum and minimum production each year.
 2. Average yield and cultivation area of each crop over the period.
 
-## Project Structure
+## Project Structurey
 
 ```
 
