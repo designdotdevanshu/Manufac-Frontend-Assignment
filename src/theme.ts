@@ -1,5 +1,14 @@
-import { createTheme } from "@mantine/core";
+import { Container, createTheme } from "@mantine/core";
+import classes from "./styles/App.module.css";
+import cx from "clsx";
 
 export const theme = createTheme({
-  /* Put your mantine theme override here */
+  
+  components: {
+    Container: Container.extend({
+      classNames: (_, { size }) => ({
+        root: cx({ [classes.responsiveContainer]: size === "responsive" }),
+      }),
+    }),
+  },
 });
